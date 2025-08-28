@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+rocky_entorno/
+
+# Logs y datos
+logs/
+*.log
+data/videos/
+data/rocky_videos_output/
+*.mp4
+*.webm
+*.mkv
+
+# Secretos y cookies
+.env
+.env.local
+youtube_cookies.txt
+*.enc
+*_cookies.txt
+*session*
+*token*
+*secret*
+
+# Análisis y reportes
+*.json
+system_analysis_*.json
+rocky_analysis_*.json
+final_test_results.json
+
+# IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Rocky outputs
+data/
+temp/
+outputs/
